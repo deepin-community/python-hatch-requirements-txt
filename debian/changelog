@@ -1,5 +1,47 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-hatch-requirements-txt (0.4.1-2) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Patch: Support hatchling 1.22.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Stefano Rivera <stefanor@debian.org>  Tue, 23 Apr 2024 17:56:15 -0400
+
+python-hatch-requirements-txt (0.4.1-1) unstable; urgency=medium
+
+  * New upstream version 0.4.1
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sat, 03 Feb 2024 13:58:15 -0300
+
+python-hatch-requirements-txt (0.4.0-3) unstable; urgency=medium
+
+  * debian/control:
+      - Added dependency for running tests
+      - Added 'Testsuite: autopkgtest-pkg-pybuild'
+  * debian/patches: Skipped function with error
+  * debian/rules: enabled test execution
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Tue, 02 Jan 2024 21:44:42 -0300
+
+python-hatch-requirements-txt (0.4.0-2) unstable; urgency=medium
+
+  * Source-only upload to allow testing migration
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Tue, 25 Jul 2023 21:54:56 -0300
+
+python-hatch-requirements-txt (0.4.0-1) unstable; urgency=medium
+
+  * New upstream version 0.4.0
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Wed, 05 Jul 2023 17:32:03 -0300
+
+python-hatch-requirements-txt (0.3.0-2) unstable; urgency=high
+
+  * Team Upload.
+    + Source-only upload.
+
+ -- Nilesh Patra <nilesh@debian.org>  Sun, 08 Jan 2023 20:18:38 +0530
+
+python-hatch-requirements-txt (0.3.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1027770)
+
+ -- Josenilson Ferreira da Silva <nilsonfsilva@hotmail.com>  Sat, 07 Jan 2023 14:36:23 +0530
